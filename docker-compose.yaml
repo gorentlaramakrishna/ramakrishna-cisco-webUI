@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  ramakrishna-ui-app:
+    image: ramakrishna-web:app$BUILD_NUMBER
+    build: .
+    container_name: ramakrishna1
+    ports:
+    - 1234:80
